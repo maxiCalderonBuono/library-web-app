@@ -1,5 +1,5 @@
 import "./style/WhoMakes.css"
-import libros2 from '../assets/images/libros2.jpg'
+import libros2 from './assets/images/libros2.jpg'
 
 export default function WhoMakes () {
     return (
