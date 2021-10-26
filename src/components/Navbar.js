@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import "./style/navbar.css";
+
 import { SearchAlt } from "@styled-icons/boxicons-regular/SearchAlt";
 import {Cart3 } from "@styled-icons/bootstrap/Cart3";
 import {Person } from "@styled-icons/bootstrap/Person";
 import mainLogo from "../assets/images/mainLogo.png";
 import Hamburger from "hamburger-react";
 import styled from 'styled-components'
+
 
 
 
@@ -30,10 +32,13 @@ const Navbar = ({cartItems}) => {
         onToggle={() => setActive(Condition)}
         className="hambutton"
         color="#ff8f15"
+
         size={25}
       />
       <nav>
         <ul className={isActive ? "active" : "hidden"}>
+
+       
           <li>
             <a href="#">Ocassions</a>
           </li>
@@ -51,17 +56,23 @@ const Navbar = ({cartItems}) => {
           </li>
           <li>
             <a href="#">
+
               <SearchAlt className= "styledicon" />
+
             </a>
           </li>
           <li>
             <a href="#">
+
               <Person className= "styledicon" />
+
             </a>
           </li>
           <li>
             <a href="#">
+
               <Cart3 className= "styledicon" />
+
               {cartItems !==0 && (
               <p className= "p-shop">{cartItems}</p>)}
             </a>
@@ -71,6 +82,8 @@ const Navbar = ({cartItems}) => {
     </div>
   );
 };
+
+
 
 
 

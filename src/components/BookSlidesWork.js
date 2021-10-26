@@ -120,12 +120,14 @@ const ContenedorSlideshow = styled.div`
 `;
 
 const Slide = styled.div`
-display: grid;
-min-width: 70%;
-transition: 0.3s ease all;
-z-index: 10;
-max-height: 500px;
-overflow:hidden;
+  display: grid;
+
+  min-width: 70%;
+
+  transition: 0.3s ease all;
+  z-index: 10;
+  max-height: 500px;
+  overflow: hidden;
 `;
 
 const Controles = styled.div`

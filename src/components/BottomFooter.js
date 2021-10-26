@@ -8,7 +8,9 @@ const BottomFooter = () => {
   return (
     <div className="bottom-footer">
       <div className="options">
-      <div><img alt="startup main logo" src={mainLogo} /></div>
+        <div>
+          <img alt="startup main logo" src={mainLogo} />
+        </div>
         <BottomItem
           title="Online"
           list={["Ofertas", "Promociones", "Formas de pago"]}
@@ -26,15 +28,16 @@ const BottomFooter = () => {
             "Condiciones de uso",
           ]}
         />
+
         <BottomItem title="Contact" />
       </div>
       <div className="lastphrase">
-      <p>
-        {" "}
-        Created with &nbsp;{" "}
-        <SuitHeartFill title="representation of love" size="15px" /> &nbsp; by
-        Group Four &copy;
-      </p>
+        <p>
+          {" "}
+          Created with &nbsp;{" "}
+          <SuitHeartFill title="representation of love" size="15px" /> &nbsp; by
+          Group Four &copy;
+        </p>
       </div>
     </div>
   );

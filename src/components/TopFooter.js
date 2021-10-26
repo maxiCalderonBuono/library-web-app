@@ -8,7 +8,10 @@ import { Whatsapp } from "@styled-icons/bootstrap/Whatsapp";
 const TopFooter = () => {
   return (
     <div className="top-footer">
+
       <p>¡FOLLOW US!</p>
+
+
       <div className="logo">
         <a href="https://www.instagram.com/group4library/" target="_blank">
           <Instagram className="logoItem first" title="Logo from Instagram" />
