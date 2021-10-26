@@ -5,7 +5,7 @@ import useAxiosBooks from "../hooks/useAxiosBooks";
 import BookItem from "./BookItem";
 
 const BookSlides = ({ onAdd }) => {
-  const url = "http://localhost:3000/books";
+  const url = "https://www.mockachino.com/spaces/96da619c-bdcb-48";
 
   const books = useAxiosBooks(url);
 
