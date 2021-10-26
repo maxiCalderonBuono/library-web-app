@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header";
+import Content from "./components/Content-s2";
+import WhoMakes from "./components/WhoMakes";
+import OurPartner from "./components/OurPartner";
+import Footer from "./components/Footer";
+import React, { useState } from "react";
+import InstagramSlides from './components/InstagramSlides'
+
+
 
 function App() {
+  const [cartItems, setCartItems] = useState(0);
+
+  const onAdd = () => setCartItems(cartItems + 1);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header cartItems={cartItems} />
+      <Content onAdd={onAdd} />
+      <WhoMakes />
+      <OurPartner />
+      <InstagramSlides />
+      <Footer /> 
+    </>
   );
 }
 
 export default App;
+
+

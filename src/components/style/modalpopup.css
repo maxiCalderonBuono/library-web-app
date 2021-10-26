@@ -1,0 +1,58 @@
+
+
+.shoppingmodal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.modal-dialog {
+  display: flex;
+  justify-content: center;
+}
+
+.modal-content {
+  width: 600px;
+  align-items: center;
+}
+
+.modal-header {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.modal-body {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.modal-footer {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.modal-title {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.confirmbtn {
+  background-color: #ff8f15;
+  border-color: #ff8f15;
+}
+
+.close {
+  line-height: 0px;
+  width: 1.4rem;
+  height: 1.4rem;
+  padding: 0px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+
+
