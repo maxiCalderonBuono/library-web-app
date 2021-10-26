@@ -2,7 +2,7 @@
 .header-contain {
     display: grid;
     width: 100%;
-    background-image: url(/src/assets/images/background-s1.jpg);
+    background-image: url(./src/assets/images/background-s1.jpg);
     background-size: cover;
     background-position: top;
     border-bottom: 5px solid white;

@@ -6,7 +6,7 @@ import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineShop } from "react-icons/ai";
 import BookSlides from './BookSlides'
  
-/*<BooksGrid onAdd={onAdd} />*/
+
 
 function Content({ onAdd }) {
   return (
