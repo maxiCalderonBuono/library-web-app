@@ -1,5 +1,5 @@
 import "./style/OurPartner.css"
-import partner from '../assets/images/partner.svg'
+import partner from '../assets/images/partner.png'
 
 export default function OurPartner () {
     return (
