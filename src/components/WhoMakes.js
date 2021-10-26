@@ -1,5 +1,5 @@
 import "./style/WhoMakes.css"
-import libros2 from './assets/images/libros2.jpg'
+//import libros2 from '../assets/images/libros2.jpg'
 
 export default function WhoMakes () {
     return (
@@ -19,7 +19,7 @@ export default function WhoMakes () {
                         <button className="text-cap"><a href="#">Learn more about</a></button>
                 </div>
                 <div className="box2">
-                <img src= {libros2} alt="libros" className="image"/>
+                <img src= "https://i.imgur.com/UJ3SvfG.jpg" alt="libros" className="image"/>
                 </div>
             </section>
         </>

@@ -3,7 +3,7 @@ import { BookSlidesWork } from "./BookSlidesWork";
 import "./style/slideshow.css";
 import useAxiosBooks from "../hooks/useAxiosBooks";
 import InstagramItem from "./InstagramItem";
-import portada from "../assets/images/buybook.jpg";
+//import portada from "../assets/images/buybook.jpg";
 
 const InstagramSlides = () => {
   const url = "https://v1.nocodeapi.com/calmax/instagram/NkHPJYflFWGAYIpo";
@@ -15,7 +15,7 @@ const InstagramSlides = () => {
       <div class="container-media">
         <div class="card-media">
           <div class="imgBx">
-            <img src={portada} alt="" />
+            <img src="https://i.imgur.com/4sJDjxy.jpg" alt="" />
           </div>
 
           <div class="content">

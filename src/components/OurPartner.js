@@ -1,5 +1,5 @@
 import "./style/OurPartner.css"
-import partner from "../assets/images/partner.png"
+//import partner from "../assets/images/partner.png"
 
 export default function OurPartner () {
     return (
@@ -7,7 +7,7 @@ export default function OurPartner () {
             <section id="our-partner">
                 <div>
                     <h3 className="text-cap">Our Charity Partner</h3>
-                    <img src= {partner} alt="Partner main logo" /> <br /> 
+                    <img src= "https://i.imgur.com/cLflKfd.png" alt="Partner main logo" /> <br /> 
                     <button className="text-cap"><a href="#">Learn more about CACE</a></button>
                 </div>
             </section>
