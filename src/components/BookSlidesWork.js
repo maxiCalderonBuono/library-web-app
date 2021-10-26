@@ -115,16 +115,14 @@ const ContenedorPrincipal = styled.div`
 const ContenedorSlideshow = styled.div`
   display: flex;
   flex-wrap: row wrap;
-  justify-content: space-evenly;
-  position: relative;
+  
 `;
 
 const Slide = styled.div`
-  display: grid;
-
-  min-width: 70%;
-
-  transition: 0.3s ease all;
+  display: flex;
+  justify-content: center;
+  min-width: 100%;
+  transition: 0.4s ease all;
   z-index: 10;
   max-height: 500px;
   overflow: hidden;
@@ -161,7 +159,7 @@ const Boton = styled.button`
   path {
     filter: ${(props) =>
       props.derecho
-        ? "drop-shadow(-2px 0px 0px #fff)"
+        ? "drop-shadow(-2px 0px 0px #ffF)"
         : "drop-shadow(2px 0px 0px #fff)"};
   }
 
