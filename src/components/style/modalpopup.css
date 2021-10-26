@@ -4,7 +4,10 @@
   align-items: center;
 }
 
-
+.swal2-popup {
+  font-size: 6vw;
+  font-family: 'Poppins', sans-serif;
+}
 
 .modal-content {
   

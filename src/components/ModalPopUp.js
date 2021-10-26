@@ -3,6 +3,7 @@ import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 import "bootstrap/dist/css/bootstrap.css";
 import "../components/style/modalpopup.css";
 import PurchasePreview from "./PurchasePreview";
+import Swal from 'sweetalert2';
 
 
 const ModalPopUp = ({ price, name, onAdd, img }) => {
@@ -13,8 +14,16 @@ const ModalPopUp = ({ price, name, onAdd, img }) => {
   const toggleConfirm = () => {
     setModal(!modal);
     onAdd();
+    alert();
   };
 
+  const alert = () => {Swal.fire({
+    position: 'top-end',
+    icon: 'success',
+    title: 'Your book has been added to cart',
+    showConfirmButton: false,
+    timer: 1500
+  })}
  
 
   const externalCloseBtn = (
