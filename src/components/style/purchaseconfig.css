@@ -7,7 +7,7 @@
 
 .quantitysection h5 {
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 4vw;
 }
 .quantityselect {
   display: flex;
@@ -38,19 +38,21 @@
   display: flex;
   justify-content: space-evenly;
   font-style: italic;
-  margin-top: 2rem;
-  line-height: 0.5rem;
+  margin-top: 0.5rem;
+  line-height: 0.2rem;
   width: 100%;
 }
 
 .textalign-right {
+  font-size: 3vw;
   text-align: right;
 }
 
 .textalign-left {
+  font-size: 3vw;
   text-align: left;
   white-space: initial;
-  line-height: 1rem;
+  line-height: 0.6rem;
 }
 
 .col {

@@ -1,14 +1,15 @@
 .previewcontainer{
+    
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 600px;
+    
 }
 
 .previewcontainer img {
-    height: 335px;
-    width: 50%;
-    padding: 0 15px;
+    height: 200px;
+    margin: 0.2rem 0;
+    padding: 0 0.5rem 0 0.5rem;
 }
 
 

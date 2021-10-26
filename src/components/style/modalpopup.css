@@ -1,43 +1,38 @@
-
-
 .shoppingmodal {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
-.modal-dialog {
-  display: flex;
-  justify-content: center;
-}
+
 
 .modal-content {
-  width: 600px;
+  margin-right: 0.4rem ;
   align-items: center;
 }
 
 .modal-header {
-  width: 600px;
+  width: 200px;
   display: flex;
   justify-content: center;
 }
 
 .modal-body {
-  width: 600px;
+  padding: 0;
   display: flex;
   justify-content: center;
 }
 
 .modal-footer {
-  width: 600px;
+  
   display: flex;
+  flex-direction: row;
   justify-content: center;
 }
 
 .modal-title {
   font-weight: 700;
-  font-size: 1.3rem;
+  font-size: 6vw;
 }
 
 .confirmbtn {
@@ -53,6 +48,3 @@
   text-align: center;
   border-radius: 50%;
 }
-
-
-
