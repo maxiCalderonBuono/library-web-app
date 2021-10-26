@@ -29,8 +29,8 @@
 
 .container-s2 {
   display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  justify-content: center;
+  flex-wrap: row wrap;
 }
 
 .card-s2 {
