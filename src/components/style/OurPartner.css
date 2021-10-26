@@ -1,0 +1,63 @@
+/* Variables */
+
+:root {
+    --primary: #FF8F15;
+    --secondary: #2C3761;
+    --tertiary: #5392FB;
+    --light: #97b9f3;
+    --light2: #f7c895;
+
+}
+
+
+.text-cap {
+    margin: 1rem 0;
+}
+
+a {
+    color: var(--secondary);
+}
+
+
+/* Mobile First */
+
+section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+h3 {
+    color: var(--secondary);
+    font-size: 8vw;
+    font-weight: 700;
+    margin: 1rem 0 0;
+
+}
+
+#our-partner img {
+    max-width: 100%;
+    margin: 0 0.5rem;
+    height: 3.5rem;
+    width: 10.7rem;
+}
+
+@media (min-width: 800px) {
+
+    #our-partner div {
+        height: 240px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    h3 {
+        font-size: 2rem;
+        margin: 1.2rem 0 10px 0;
+    }
+
+    #our-partner img {
+        height: 100px;
+        width: 150px;
+    }
+}

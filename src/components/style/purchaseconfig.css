@@ -1,0 +1,63 @@
+.quantitysection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.quantitysection h5 {
+  font-weight: 700;
+  font-size: 1rem;
+}
+.quantityselect {
+  display: flex;
+  align-items: center;
+}
+
+.quantityselect input {
+  border: 2px solid gray;
+  border-radius: 6px;
+  width: 38px;
+  height: 38px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.controllers {
+  margin: 0px;
+  padding: 0px 1rem;
+  background-color: initial;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: none;
+}
+
+.row-info {
+  display: flex;
+  justify-content: space-evenly;
+  font-style: italic;
+  margin-top: 2rem;
+  line-height: 0.5rem;
+  width: 100%;
+}
+
+.textalign-right {
+  text-align: right;
+}
+
+.textalign-left {
+  text-align: left;
+  white-space: initial;
+  line-height: 1rem;
+}
+
+.col {
+  width: 50%;
+}
+hr {
+  width: 100%;
+  line-height: 1rem;
+  list-style: 1px solid #dee2e6;
+}

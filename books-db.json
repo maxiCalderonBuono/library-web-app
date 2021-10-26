@@ -1,0 +1,84 @@
+{"books": [
+  {
+    "id": 1,
+    "author": "Charles Dickens",
+    "title": "Oliver Twist",
+    "cover_image": "https://covers.odilo.io/public/Oliver_Twist_Cl_sicos/9788467726145.jpg",
+    "pages": 234,
+    "price" : 1000,
+    "releaseDate": "1839",
+    "isbn": "wt345"
+  },
+  {
+    "id": 2,
+    "author": "Charles Dickens",
+    "title": "Hard Times",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51ubsJgHrwL._SX342_SY445_QL70_FMwebp_.jpg",
+    "pages": 300,
+    "price" : 856,
+    "releaseDate": "1854",
+    "isbn": "jk654"
+  },
+  {
+    "id": 3,
+    "author": "William Shakespeare",
+    "title": "Hamlet",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51IWerpjMGL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg",
+    "pages": 160,
+    "price" : 1325,
+    "releaseDate": "1603",
+    "isbn": "po789"
+  },
+  {
+    "id": 4,
+    "author": "Stephen King",
+    "title": "IT",
+    "cover_image": "https://caserodellibro.com/images/it-book_6250.jpg",
+    "pages": 500,
+    "price" : 2600,
+    "releaseDate": "2017",
+    "isbn": "yu098"
+  },
+  {
+    "id": 5,
+    "author": "Haruki Murakami",
+    "title": "Norwegian Wood",
+    "cover_image": "http://t1.gstatic.com/images?q=tbn:ANd9GcQvJJDi2mzwg9v_PlmKYL31gXIz0kvAObJak7DVFPcD_mJTIyec",
+    "pages": 296,
+    "price" : 590,
+    "releaseDate": "1987",
+    "isbn": "hj846"
+  },
+  {
+    "id": 6,
+    "author": "Haruki Murakami",
+    "title": "Kafka on the Shore",
+    "cover_image": "http://t0.gstatic.com/images?q=tbn:ANd9GcRHFU_j93PPsbQGqoaZJnHH6-Emk_sIxG823SkoRTL0nvdEP41f",
+    "pages": 505,
+    "price" : 1440,
+    "releaseDate": "2002",
+    "isbn": "op012"
+  },
+  {
+    "id": 7,
+    "author": "Haruki Murakami",
+    "title": "After Dark",
+    "cover_image": "http://t3.gstatic.com/images?q=tbn:ANd9GcQBMNA8A19vQpNY4bkgadsLhiRUFqBKwKAA6ANrw8VEtOiPrYQJ",
+    "pages": 208,
+    "price" : 340,
+    "releaseDate": "2004",
+    "isbn": "cv456"
+  },
+  {
+    "id": 8,
+    "author": "Haruki Murakami",
+    "title": "1Q84",
+    "cover_image": "http://t0.gstatic.com/images?q=tbn:ANd9GcTBQZSg-b2LFkLlt9fWndS1w8SONabDZBHf0dtdb3-bqcuKxduL",
+    "pages": 928,
+    "price" : 928,
+    "releaseDate": "2009",
+    "isbn": "al207"
+  }
+]
+
+}

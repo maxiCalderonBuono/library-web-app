@@ -1,0 +1,118 @@
+/* Seccion-2 */
+
+:root {
+  --primary: #ff8f15;
+  --secondary: #2c3761;
+  --tertiary: #5392fb;
+  --light: #97b9f3;
+  --light2: #f7c895;
+}
+
+.content-title {
+  text-align: center;
+}
+
+
+.color-change {
+  color: var(--primary);
+}
+
+/* Lastest Offers */
+
+.containertitle-s2 h2 {
+  font-style: normal;
+  font-size: 7vw;
+  line-height: 48px;
+  text-align: center;
+  margin:0;
+}
+
+.container-s2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card-s2 {
+  height: 375px;
+  width: 230px;
+  margin: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  background-color: var(--light);
+  border-radius: 10px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.card-image-s2 {
+  height: 200px;
+  width: 230px;
+  object-fit: contain;
+  border-radius: 5px 5px 5px 5px;
+  margin-top: 15px;
+}
+
+.card-title-s2 {
+  font-style: normal;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.card-price-s2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.card-button-s2 {
+  margin-top: 0;
+  width: 200px;
+  height: 40px;
+  background-color: var(--primary);
+  color: var(--secondary);
+  font-style: bold;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 0px;
+  border-radius: 5px;
+  border: none;
+}
+
+.card-button-s2:hover {
+  background-color: var(--light2);
+  color: var(--primary);
+}
+
+/* Why-Choose-Us */
+
+.container2title-s2 h2 {
+  line-height: 48px;
+  text-align: center;
+  font-size: 7vw;
+}
+
+.container2-s2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.box1-s2,
+.box2-s2,
+.box3-s2,
+.box4-s2 {
+  width: 200px;
+  height: auto;
+}
+
+.box-content-s2 {
+  font-style: normal;
+  font-weight: 650;
+  font-size: 16px;
+  color: #1f1f1f;
+}
+
+
+

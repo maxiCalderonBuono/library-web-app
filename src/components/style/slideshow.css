@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+/*Mobile First*/
+
+.container-media {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.card-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+
+.imgBx {
+  width: 50%;
+  height: 12.5rem;
+}
+
+.imgBx img {
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  width: 50%;
+  height: 12.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  height: 12.5rem;
+}
+
+.content h2 {
+  margin: 0 0;
+  font-size: 3vw;
+}
+.content h3 {
+  margin: 0.5rem 0 0;
+  font-size: 3vw;
+}
+
+.content p {
+  margin: 0.5rem 0 0;
+  font-size: 3vw;
+}
+
+.text-cap {
+  font-size: 3vw;
+}
+
+.perspective {
+  border-radius: 8px;
+  height: 150px;
+  width: 200px;
+  object-fit: cover;
+  margin-top: 15px;
+}
+
+
+
+/*@media (max-width: 1200px) {
+  .container {
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .card {
+    width: calc(70% - 20px);
+    margin: 10px auto;
+  }
+}
+@media (max-width: 768px) {
+  .card {
+    width: calc(70% - 20px);
+    margin: 10px auto;
+  }
+  .card .imgBx {
+    position: relative;
+    width: 100%;
+    height: 200px;
+  }
+  .card .details {
+    position: relative;
+    width: 100%;
+    height: 200px;
+  }
+}
+/* @media (max-width: 480px) {
+	.card {
+	  width: calc(100% - 40px);
+	  margin: 10px auto;
+	}
+  }*/
