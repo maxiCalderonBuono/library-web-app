@@ -56,6 +56,12 @@ li {
   color: #2C3761;
   width: 1.5rem;
   height: 1.5rem;
+  
+}
+
+.styledcart {
+  grid-column: 4/5;
+  grid-row: 1/2;
 }
 
 
