@@ -126,6 +126,17 @@ const Slide = styled.div`
   z-index: 10;
   max-height: 500px;
   overflow: hidden;
+
+  @media screen and (min-width: 1200px) {
+  display: flex;
+  justify-content: center;
+  min-width: 25%;
+  transition: 0.4s ease all;
+  z-index: 10;
+  max-height: 500px;
+  overflow: hidden;
+  }
+
 `;
 
 const Controles = styled.div`

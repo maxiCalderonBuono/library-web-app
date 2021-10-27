@@ -58,9 +58,14 @@ const Navbar = ({ cartItems }) => {
               <Person className="styledicon" />
             </a>
           </li>
+          <li>
+          <a href="#" className= "styledcart">
+              <CartIcon cartItems={cartItems} />
+            </a>
+          </li>
         </ul>
       </nav>
-      <div className="styledcart">
+      <div className="styledcart-mobile">
             <a href="#">
               <CartIcon cartItems={cartItems} />
             </a>

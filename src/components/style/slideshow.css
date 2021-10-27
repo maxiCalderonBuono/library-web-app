@@ -7,6 +7,11 @@
   width: 100%;
   display: flex;
   flex-direction: row;
+  background-image: linear-gradient(
+    88.7deg,
+    rgba(221, 221, 221, 1) -16.4%,
+    rgba(255, 255, 255, 1) 89%
+  );
 }
 
 .card-media {
@@ -29,13 +34,12 @@
 
 .content {
   width: 50%;
-  height: 12.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   text-align: center;
-  height: 12.5rem;
+ 
 }
 
 .content h2 {
@@ -52,9 +56,7 @@
   font-size: 3vw;
 }
 
-.text-cap {
-  font-size: 3vw;
-}
+
 
 .perspective {
   border-radius: 8px;
@@ -66,12 +68,18 @@
 
 
 
-/*@media (max-width: 1200px) {
-  .container {
-    width: 100%;
+/* 1200px */
+
+@media screen and (min-width: 1200px) {
+
+  .imgBx {
+  height: 25rem;
   }
 }
-@media (max-width: 991px) {
+
+
+
+/* @media (max-width: 991px) {
   .card {
     width: calc(70% - 20px);
     margin: 10px auto;

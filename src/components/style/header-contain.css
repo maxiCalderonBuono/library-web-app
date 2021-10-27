@@ -30,3 +30,10 @@
     text-decoration: none;
 }
 
+@media screen and (min-width: 1200px) {
+
+    .text1-s1,.text2-s1{
+        font-size: 8vh;
+        font-weight: 500;
+    }
+}

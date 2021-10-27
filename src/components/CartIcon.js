@@ -19,7 +19,7 @@ const theme = createTheme({
 const CartIcon = ({ cartItems }) => {
   return (
     <ThemeProvider theme= {theme}>
-      <div style={{ display: "block", paddingTop: 27, textAlign: "right" }}>
+      <div style={{ display: "block", textAlign: "right" }}>
         <Badge color="primary" badgeContent={cartItems}>
           {cartItems !== 0 ? (
             <ShoppingCartIcon />

@@ -7,8 +7,8 @@ export default function OurPartner () {
             <section id="our-partner">
                 <div>
                     <h3 className="text-cap">Our Charity Partner</h3>
-                    <img src= "https://i.imgur.com/cLflKfd.png" alt="Partner main logo" /> <br /> 
-                    <button className="text-cap"><a href="#">Learn more about CACE</a></button>
+                    <img className= "ourpartner-img" src= "https://i.imgur.com/cLflKfd.png" alt="Partner main logo" /> <br /> 
+                    <button className="text-cap"><a href="https://www.cace.org.ar/" target="_blank">Learn more about CACE</a></button>
                 </div>
             </section>
         </>

@@ -20,7 +20,6 @@ const InstagramSlides = () => {
 
           <div class="content">
             <h2>
-              <br />
               Surprise someone
             </h2>
 
@@ -30,7 +29,7 @@ const InstagramSlides = () => {
               will be standing tall.
             </p>
             <button className="text-cap">
-              <a href="#">Buy now</a>
+              <a href="#lastest-offers">Buy now</a>
             </button>
           </div>
         </div>

@@ -1,4 +1,3 @@
-
 /*Mobile First*/
 
 .container-menu {
@@ -12,11 +11,12 @@
   grid-column: 5/6;
   grid-row: 1/2;
 }
-
-.logo-menu {
-  padding-left: 1.2rem;
+.navbar-logo {
   grid-column: 1/4;
   grid-row: 1/2;
+}
+.logo-menu {
+  padding-left: 1.2rem;
   width: 6rem;
   height: 5.5rem;
 }
@@ -29,14 +29,12 @@
 
 .active {
   padding: 0;
-  margin: 0 0 1rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   list-style: none;
   font-size: 1.5rem;
-  
 }
 
 .active a {
@@ -49,82 +47,82 @@ li {
 
 .hidden {
   display: none;
-
 }
 
 .styledicon {
-  color: #2C3761;
+  color: #2c3761;
   width: 1.5rem;
   height: 1.5rem;
-  
 }
 
-.styledcart {
+.styledcart-mobile {
+  padding-top: 27px;
   grid-column: 4/5;
   grid-row: 1/2;
 }
 
 
-@media screen and (min-width: 1000px) {
-
-ul {
-  height: 300px;
+.styledcart {
+  display: none;
 }
 
-  .navbar-options li {
-    display: flex;
-    flex-direction: row;
-    text-decoration: none;
+/* @1200 px */
 
+@media screen and (min-width: 1200px) {
+  .hamburger-react {
+    display: none;
+  }
+
+  .logo-menu {
+    padding-left: 1.2rem;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 7.5rem;
+    height: 7rem;
   }
 
   .container-menu nav {
-    
-    grid-column: 1/6;
-    grid-row: 2/3;
+    text-decoration: none;
+    grid-column: 2/4;
+    grid-row: 1/2;
   }
 
-  .container-menu nav ul {
-    flex-direction: row;
+
+  .styledcart-mobile {
+    display: none;
   }
-}
 
-.p-shop {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position:absolute;
-  right: 10rem;
-  top: 24.6rem;
-  background-color: red;
-  border-radius: 50%;
-  width: 1.2rem;
-  height: 1.2rem;
-  font-size: 1rem;
-  text-align: center;
-  font-weight: 700;
-  margin:0px;
- 
-}
+  .styledcart {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right:1rem;
+    grid-column: 4/5;
+    grid-row: 1/2;
+  }
 
-.navbar-options li a {
-  text-decoration: none;
-}
+  nav {
+    display: flex;
+  }
 
+  .hidden {
+    width: 100%;
+    padding: 0;
+    margin: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 1.5rem;
+  }
 
-.cart-icon p {
-  position: absolute;
-  width: 4rem;
-  height: 4rem;
-  right: -1.2rem;
-  top: 0.9rem;
-  border-radius: 50%;
-  background: #99cbf7;
-  color: #fff;
-  box-sizing: border-box;
-  font-size: 1.6rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--main-color);
+  .hidden a {
+    text-decoration: none;
+  }
+
+  .styledicon {
+    color: #2c3761;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
 }

@@ -16,11 +16,11 @@ export default function WhoMakes () {
                             <li>Because it supports local jobs</li>
                             <li>Because it makes more sense for the environment</li>
                         </ul>
-                        <button className="text-cap"><a href="#">Learn more about</a></button>
+                        <button className="text-cap"><a href="https://www.bn.gov.ar/" target="_blank">Learn more about</a></button>
                 </div>
-                <div className="box2">
-                <img src= "https://i.imgur.com/UJ3SvfG.jpg" alt="libros" className="image"/>
-                </div>
+                
+                <img src= "https://i.imgur.com/UJ3SvfG.jpg" alt="libros" className="box2"/>
+                
             </section>
         </>
     );
