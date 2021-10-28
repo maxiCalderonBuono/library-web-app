@@ -140,6 +140,7 @@
     .who-makes {
    
         display: flex;
+        flex-direction: column;
        
     }
     

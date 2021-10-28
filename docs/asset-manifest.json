@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.44f07bfb.chunk.css",
-    "main.js": "/static/js/main.9b5cb925.chunk.js",
-    "main.js.map": "/static/js/main.9b5cb925.chunk.js.map",
+    "main.css": "/static/css/main.388e7721.chunk.css",
+    "main.js": "/static/js/main.867d28a3.chunk.js",
+    "main.js.map": "/static/js/main.867d28a3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.07750605.js",
     "runtime-main.js.map": "/static/js/runtime-main.07750605.js.map",
     "static/css/2.acf9cc11.chunk.css": "/static/css/2.acf9cc11.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.8fc86177.chunk.js.map": "/static/js/3.8fc86177.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.acf9cc11.chunk.css.map": "/static/css/2.acf9cc11.chunk.css.map",
-    "static/css/main.44f07bfb.chunk.css.map": "/static/css/main.44f07bfb.chunk.css.map",
+    "static/css/main.388e7721.chunk.css.map": "/static/css/main.388e7721.chunk.css.map",
     "static/js/2.616fabe5.chunk.js.LICENSE.txt": "/static/js/2.616fabe5.chunk.js.LICENSE.txt",
     "static/media/iconmonstr-angel-left-thin.b74b51c4.svg": "/static/media/iconmonstr-angel-left-thin.b74b51c4.svg",
     "static/media/iconmonstr-angel-right-thin.b282d2fc.svg": "/static/media/iconmonstr-angel-right-thin.b282d2fc.svg"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.07750605.js",
     "static/css/2.acf9cc11.chunk.css",
     "static/js/2.616fabe5.chunk.js",
-    "static/css/main.44f07bfb.chunk.css",
-    "static/js/main.9b5cb925.chunk.js"
+    "static/css/main.388e7721.chunk.css",
+    "static/js/main.867d28a3.chunk.js"
   ]
 }

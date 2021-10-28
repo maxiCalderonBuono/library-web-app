@@ -8,11 +8,16 @@
     
     }
     
+    /*Se agrega para evitar el movimiento del body con el mensaje de sweet alert*/
+    html {
+        overflow-y: auto;
+      }
     
     body {
         margin: 0;
-        padding: 0;
-           
+        padding:  0 !important ; /*Se coloca important para evitar que el modal agregue padding
+        al body cuando se ejecuta */
+          
     }
 
     button {

@@ -64,6 +64,9 @@
 }
 
 @media screen and (min-width: 786px) {
+
+
+
   .modal-dialog {
     display: flex;
     justify-content: center;

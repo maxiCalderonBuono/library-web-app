@@ -18,7 +18,7 @@ const ModalPopUp = ({ price, name, onAdd, img }) => {
   };
 
   const alert = () => {Swal.fire({
-    position: 'top-end',
+    position: 'center',
     icon: 'success',
     title: 'Your book has been added to cart',
     showConfirmButton: false,

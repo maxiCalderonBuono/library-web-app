@@ -25,12 +25,18 @@ const Navbar = ({ cartItems }) => {
       <a className="navbar-logo" href="/">
         <img className="logo-menu" alt="main logo" src={mainLogo} />
       </a>
+      <div className="mobile-nav">
+            <a href="#">
+              <CartIcon cartItems={cartItems} />
+            </a>
+      
       <Hamburger
         onToggle={() => setActive(Condition)}
         className="hambutton"
         color="#ff8f15"
         size={25}
       />
+      </div>
       <nav>
         <ul className={isActive ? "active" : "hidden"}>
           <li>
@@ -65,11 +71,7 @@ const Navbar = ({ cartItems }) => {
           </li>
         </ul>
       </nav>
-      <div className="styledcart-mobile">
-            <a href="#">
-              <CartIcon cartItems={cartItems} />
-            </a>
-      </div>
+      
     </div>
   );
 };
