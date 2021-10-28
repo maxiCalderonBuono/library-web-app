@@ -7,7 +7,7 @@ import BookItem from "./BookItem";
 const BookSlides = ({ onAdd }) => {
 
   const url = "https://www.mockachino.com/e13fa5e1-34e4-48/books";
-//http://localhost:3000/books
+//Mockeado en local en => http://localhost:3000/books
   
 
   const books = useAxiosBooks(url);

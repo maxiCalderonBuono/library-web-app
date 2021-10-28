@@ -1,3 +1,7 @@
+
+
+
+
 .bottom-footer {
   width: 100%;
   display: flex;
@@ -94,13 +98,15 @@
   }
 }
 
-@media screen and (min-width: 1000px) {
+
+@media screen and (min-width: 1200px) {
   .options {
     margin-top: 1.875rem;
     display: flex;
     flex-direction: row;
     flex-flow: row wrap;
     justify-content: center;
+    align-items: flex-start;
   }
 
   .options p {
@@ -108,26 +114,70 @@
   }
 
   .options div {
+    display: flex;
+    flex-direction: column;
     width: 12.5rem;
-    height: 12.25rem;
+    
   }
 
   .options li {
     margin: 1rem 0;
+    text-align: centerleft;
   }
 
   .options img {
-    margin: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 1000px) {
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+
+  
   .options {
     margin-top: 1.875rem;
     display: flex;
     flex-direction: row;
     flex-flow: row wrap;
     justify-content: center;
+    align-items: flex-start;
+  }
+
+  .options p {
+    text-align: left;
+  }
+
+  .options div {
+    display: flex;
+    flex-direction: column;
+    width: 12.5rem;
+    
+  }
+
+  .options li {
+    margin: 1rem 0;
+    text-align: left;
+  }
+
+  .options img {
+    margin-left: 0;
+      
+    }
+}
+
+
+@media screen and (min-width: 786px) and (max-width: 900px) {
+
+  
+  .options {
+    margin-top: 1.875rem;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
   }
 
   .options p {
@@ -135,13 +185,29 @@
   }
 
   .options div {
+    display: flex;
+    flex-direction: column;
     width: 12.5rem;
-    height: 12.25rem;
+    
   }
 
   .options li {
     margin: 1rem 0;
     text-align: center;
+  }
+
+  .options img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 786px) {
+
+  
+  .options li {
+    display: none;
   }
 
   .options img {

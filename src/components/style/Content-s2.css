@@ -2,6 +2,7 @@
 
 /*-------------------Mobile First------------------------ */
 
+
 :root {
   --primary: #ff8f15;
   --secondary: #2c3761;
@@ -143,3 +144,48 @@
 }
 
 }
+
+
+
+  @media screen and (min-width: 900px) and (max-width: 1200px) {
+    
+    .containertitle-s2 h2 {
+      font-style: normal;
+      font-size: 5.5vh;
+      line-height: 48px;
+      text-align: center;
+      margin:0;
+    }
+    
+    
+    /* Why-Choose-Us */
+    
+    .container2title-s2 h2 {
+      line-height: 48px;
+      text-align: center;
+      font-size: 5.5vh;
+    }
+  }
+
+
+  @media screen and (min-width: 786px) and (max-width: 900px) {
+    
+    .containertitle-s2 h2 {
+      font-style: normal;
+      font-size: 5.5vh;
+      line-height: 48px;
+      text-align: center;
+      margin:0;
+    }
+    
+    
+    /* Why-Choose-Us */
+    
+    .container2title-s2 h2 {
+      line-height: 48px;
+      text-align: center;
+      font-size: 5.5vh;
+    }
+
+   
+  }

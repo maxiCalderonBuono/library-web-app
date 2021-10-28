@@ -6,8 +6,10 @@ import InstagramItem from "./InstagramItem";
 //import portada from "../assets/images/buybook.jpg";
 
 const InstagramSlides = () => {
-  const url = "https://v1.nocodeapi.com/calmax/instagram/NkHPJYflFWGAYIpo";
-
+  const url = "https://www.mockachino.com/e13fa5e1-34e4-48/books"
+  //Se crea perfil de instagram y api con respectivo token, haciendo uso de nocodeapi.
+  //Lamentablemente se superaron los request gratuitos.
+  
   const get = useAxiosBooks(url);
 
   return (
@@ -36,7 +38,7 @@ const InstagramSlides = () => {
       </div>
 
       <BookSlidesWork controles={true}>
-        {(get.length === 0 ? get : get.data).map((book) => (
+        {(get.length === 0 ? get : get.books).map((book) => (
           <InstagramItem key={book.id} {...book} />
         ))}
       </BookSlidesWork>

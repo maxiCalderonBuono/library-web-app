@@ -43,6 +43,7 @@ const ModalPopUp = ({ price, name, onAdd, img }) => {
       </button>
       <div className="shoppingmodal">
         <Modal
+          contentClassName= "resize"
           centered={true}
           isOpen={modal}
           external={externalCloseBtn}

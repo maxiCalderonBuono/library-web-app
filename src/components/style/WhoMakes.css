@@ -1,6 +1,8 @@
 
 /* Variables */
 
+
+
 :root {
     --primary: #FF8F15;
     --secondary: #2C3761;
@@ -104,11 +106,64 @@
    }
 
 
-
-
-
 }   
 
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+
+    .who-makes {
+   
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .box1 {
+        width: 50%;
+    }
+
+    .box2{
+      
+        width: 50%;
+    }
+
+  
+    .box1 h2{
+       font-size: 4.5vh;
+       font-weight: 700;
+       padding: 0.7rem 0 0 0;
+   }
+}
+
+
+@media screen and (min-width: 786px) and (max-width: 900px) {
+
+    .who-makes {
+   
+        display: flex;
+       
+    }
+    
+    .box1 {
+        width: 100%;
+    }
+
+    .box2{
+      
+        width: 100%;
+    }
+
+  
+    .box1 h2{
+       font-size: 4.5vh;
+       font-weight: 700;
+       padding: 0.7rem 0 0 0;
+   }
+}
+
+@media screen and (min-width: 480px) and (max-width: 786px) {
+    .who-makes li {
+      display: none;
+    } }
 
 @media screen and (max-width: 480px) {
     .who-makes li {

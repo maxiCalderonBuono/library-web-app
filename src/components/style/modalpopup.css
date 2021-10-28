@@ -1,34 +1,45 @@
+
+
+
 .shoppingmodal {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.modal-dialog {
+  display: flex;
+  justify-content: center;
+}
+.resize {
+  width: 350px;
+}
+
 .swal2-popup {
   font-size: 6vw;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .modal-content {
-  
   align-items: center;
 }
 
 .modal-header {
-  width: 200px;
+  width: 300px;
   display: flex;
   justify-content: center;
 }
 
 .modal-body {
   padding: 0;
+  width: 350px;
   display: flex;
   justify-content: center;
 }
 
 .modal-footer {
-  
   display: flex;
+  width: 300px;
   flex-direction: row;
   justify-content: center;
 }
@@ -50,4 +61,57 @@
   padding: 0px;
   text-align: center;
   border-radius: 50%;
+}
+
+@media screen and (min-width: 786px) {
+  .modal-dialog {
+    display: flex;
+    justify-content: center;
+  }
+  .resize {
+    width: 700px;
+  }
+
+  .modal-header {
+    width: 650px;
+  }
+
+  .modal-footer {
+    width: 650px;
+  }
+
+  .modal-body {
+    width: 700px;
+  }
+
+  .modal-title {
+    font-size: 2rem;
+  }
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 786px) {
+  .modal-dialog {
+    display: flex;
+    justify-content: center;
+  }
+  .resize {
+    width: 500px;
+  }
+
+  .modal-header {
+    width: 450px;
+  }
+
+  .modal-footer {
+    width: 450px;
+  }
+
+  .modal-body {
+    width: 500px;
+  }
+
+  .modal-title {
+    font-size: 2rem;
+  }
 }

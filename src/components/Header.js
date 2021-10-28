@@ -11,3 +11,4 @@ const Header = ({cartItems}) => {
     )}
 
 export default Header
+

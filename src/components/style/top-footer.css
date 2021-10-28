@@ -1,3 +1,6 @@
+
+
+
 .top-footer {
   display: grid;
   width: 100%;
@@ -61,5 +64,57 @@
     margin-top: 0.5rem;
     font-style: italic;
     font-size: 5vh;
+  
+} }
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+
+  .top-footer {
+    height: 9.3rem;
+  }
+
+  .top-footer p {
+    margin-top: 0.5rem;
+    font-style: italic;
+    font-size: 4vh;
+  }
+
+  .logo {
+    font-size: 4vh;
+  }
+}
+
+@media screen and (min-width: 786px) and (max-width: 900px) {
+
+  .top-footer {
+    height: 9.3rem;
+  }
+
+  .top-footer p {
+    margin-top: 0.5rem;
+    font-style: italic;
+    font-size: 4vh;
+  }
+
+  .logo {
+    font-size: 4vh;
+  }
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 786px) {
+
+  .top-footer {
+    height: 7rem;
+  }
+
+  .top-footer p {
+    margin-top: 0.5rem;
+    font-style: italic;
+    font-size: 3.5vh;
+  }
+
+  .logo {
+    font-size: 3.5vh;
   }
 }

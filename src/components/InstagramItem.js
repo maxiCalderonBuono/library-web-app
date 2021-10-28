@@ -1,7 +1,7 @@
 import React from "react";
 import { Slide } from "./BookSlidesWork";
 
-const InstagramItem = ({ id, media_url: url }) => {
+const InstagramItem = ({ id, cover_image: url }) => {
   return (
     <Slide>
       <div className="instagram-card">

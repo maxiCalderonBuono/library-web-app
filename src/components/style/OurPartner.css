@@ -1,5 +1,7 @@
 /* Variables */
 
+
+
 :root {
     --primary: #FF8F15;
     --secondary: #2C3761;
@@ -61,5 +63,30 @@ h3 {
 
 }
 
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    h3{
+        font-size: 4.5vh;
+    }
+ 
+    .ourpartner-img {
+     max-width: 100%;
+     margin: 0 0.5rem;
+     height: 6rem;
+     width: 16rem;
+ }
+}
+
+@media screen and (min-width: 786px) and (max-width: 900px) {
+    h3{
+        font-size: 4.5vh;
+    }
+ 
+    .ourpartner-img {
+     max-width: 100%;
+     margin: 0 0.5rem;
+     height: 6rem;
+     width: 16rem;
+ }
+}
     
 

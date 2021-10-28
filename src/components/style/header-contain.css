@@ -32,8 +32,23 @@
 
 @media screen and (min-width: 1200px) {
 
+ 
+        
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+
     .text1-s1,.text2-s1{
-        font-size: 8vh;
+        font-size: 6.2vh;
         font-weight: 500;
     }
 }
+
+@media screen and (min-width: 786px) and (max-width: 900px) {
+
+    .text1-s1,.text2-s1{
+        font-size: 6.2vh;
+        font-weight: 500;
+    }
+}
+

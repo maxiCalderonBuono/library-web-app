@@ -15,12 +15,13 @@ function App() {
 
   return (
     <>
-      <Header cartItems={cartItems} />
-      <Content onAdd={onAdd} />
-      <WhoMakes />
+       <Header cartItems={cartItems} />
+       <Content onAdd={onAdd} />
+       <WhoMakes />
       <OurPartner />
       <InstagramSlides />
-      <Footer /> 
+      <Footer />
+      
     </>
   );
 }

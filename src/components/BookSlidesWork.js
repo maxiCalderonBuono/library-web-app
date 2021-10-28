@@ -107,7 +107,7 @@ const BookSlidesWork = ({
 const ContenedorPrincipal = styled.div`
   position: relative;
   margin: 1rem auto;
-  max-width: 100vw;
+  max-width: 100%;
   min-width: 50%;
   overflow: hidden;
 `;
@@ -135,6 +135,28 @@ const Slide = styled.div`
   z-index: 10;
   max-height: 500px;
   overflow: hidden;
+  }
+
+  @media screen and (min-width: 900px) and (max-width: 1200px) {
+
+   display: flex;
+  justify-content: center;
+  min-width: 32%;
+  transition: 0.4s ease all;
+  z-index: 10;
+  max-height: 500px;
+  overflow: hidden;
+  }
+
+  @media screen and (min-width: 786px) and (max-width: 900px) {
+    display: flex;
+    justify-content: center;
+    min-width: 50%;
+    transition: 0.4s ease all;
+    z-index: 10;
+    max-height: 500px;
+    overflow: hidden;
+    }
   }
 
 `;
