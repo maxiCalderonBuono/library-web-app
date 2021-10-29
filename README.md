@@ -3,9 +3,7 @@
 _A complete web for an imaginary online library_
 
 
-## Construido con 🛠️
-
-_Menciona las herramientas que utilizaste para crear tu proyecto_
+## Build using 🛠️
 
 * [SweetAlert](https://sweetalert2.github.io/) 
 * [ReactStrap](https://reactstrap.github.io/) 
@@ -18,7 +16,7 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 
 ## Author ✒️
 
-* **Maxi Calderón** - *Trabajo Inicial* - [maxiCalderonBuono](https://github.com/villanuevand)
+* **Maxi Calderón** - [maxiCalderonBuono](https://github.com/villanuevand)
 
 
 ## Keep in touch 🎁
